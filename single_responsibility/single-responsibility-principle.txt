@@ -1,4 +1,4 @@
-each software component should have one reponsibility!
+each software component should have one and only one reponsibility!
 
 2 big words - COHESION and COUPLING
 
@@ -21,3 +21,7 @@ coupling is the level of interdependency between various software components
 think about warrens code - he has a class for everything (eg interfacing with DDB)
 so that if we change the db we are using, we just have to write another db class and update the references!
 loosely coupled, but cohesive
+
+
+ALTERNATE DEFINITION:
+uncle bob phrases this principle as 'each software component should have one and only one reason to change'
