@@ -1,0 +1,5 @@
+s - single responsibility
+o - open/closed
+l - liskov substitution
+i - interface segregation
+d - dependency inversion
