@@ -1,0 +1,23 @@
+each software component should have one reponsibility!
+
+2 big words - COHESION and COUPLING
+
+
+COHESION
+
+cohesion is the degree to which the various parts of a software component are related
+
+think about a big pile of garbage vs a neat row of well sorted containers
+
+think about Square and SquareUI...by splitting the responsibilities up, we increase the cohesion of BOTH classes
+
+higher cohesion helps attain better adherence to the single responsibility principle!
+
+
+COUPLING
+
+coupling is the level of interdependency between various software components
+
+think about warrens code - he has a class for everything (eg interfacing with DDB)
+so that if we change the db we are using, we just have to write another db class and update the references!
+loosely coupled, but cohesive

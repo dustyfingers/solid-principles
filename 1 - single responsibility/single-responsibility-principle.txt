@@ -1,1 +1,0 @@
-seach software component should have one reponsibility!
